@@ -1,0 +1,33 @@
+{
+  "name": "nodeqlite",
+  "version": "1.0.0",
+  "description": "A Node introduction to Sqlite",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cscholze/nodeqlite.git"
+  },
+  "author": "Caleb Scholze <jcsdevel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cscholze/nodeqlite/issues"
+  },
+  "homepage": "https://github.com/cscholze/nodeqlite#readme",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.0"
+  },
+  "dependencies": {
+    "sqlite3": "^3.1.1"
+  }
+}
